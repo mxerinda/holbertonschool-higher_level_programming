@@ -1,5 +1,4 @@
--- File: 7-insert_value.sql
-
-USE hbtn_0c_0; -- Switch to the appropriate database
-
-INSERT INTO 'first_table' (id, name) VALUES (89, 'Best School');
+-- a new row in the table first_table
+-- inserts a new row in the table first_table
+INSERT INTO `first_table`(`id`, `name`)
+VALUES(89, "Holberton School");
